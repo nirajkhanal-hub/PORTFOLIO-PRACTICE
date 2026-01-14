@@ -1,14 +1,14 @@
 body{
-    width: 1440px;
-    height: 1016px;
-    margin: 8px 0px 0px 8px;
+    width: 1396px;
+    height: 970px;
     background: linear-gradient(90deg, #57CB9B 0%, #1C1515 100%);
-    /* margin-left: 44px;
-    margin-top: 46px; */
+    margin-left: 44px;
+    margin-top: 46px;
+   
 }
 .box1{
     width:987px;
-    height:647px;
+    height: 660px;
     padding: 8px 20px 8px 20px;
     border-radius: 16px 0 0 0;
     border: 1px solid #000;
@@ -17,20 +17,39 @@ body{
     position: relative;
         
 }
+.box3{
+    width: 987px;
+    height: 292px;
+    background-color:lightgray;
+    padding: 8px 20px 8px 20px;
+    border: 1px;
+
+    position:absolute;
+    top: 723px;
+    left: 44px;
+    /* right: 369px; */
+    /* bottom: -102px; */
+}
 .menu{
 display: inline-flex;
 padding: 10px 0;
 align-items: center;
 gap: 64px;
+margin: 16px;
+
 }
-.ContactMe{
-border-radius: 24px;
-background: #FFF;
- display: flex;
+.ReadGita{
+display: inline-flex;
 padding: 10px;
 justify-content: center;
 align-items: center;
 gap: 10px;
+border-radius: 4px;
+background: #FFF;
+position: absolute;
+top: 24px;
+right: 31px;
+
 }
 h1{
 display: flex;
@@ -61,7 +80,7 @@ width: 200px;
 height: 300px;
 border-radius: 28px 0 28px 28px;
 border: 1px solid #C3BFBF;
-background: url('WhatsApp Image 2025-12-29 at 12.58.40 PM.jpeg') -20px -0.291px / 111.57% 100.971% no-repeat;
+background: url('krishna photos/download (7).jpg') lightgray 0.801px -0.291px / 100% 131.73% no-repeat;
 box-shadow: 0 4px 10px 4px rgba(77, 43, 43, 0.25);
 position: absolute;
 right: 70px;
@@ -69,8 +88,8 @@ top: 140px;
 
 }
 .navbar{
- display: flex;
-width: 951px;
+display: flex;
+width: 900px;
 height: 51px;
 padding: 10px;
 justify-content: space-between;
@@ -80,6 +99,7 @@ margin: 180px 0px 87px 0px;
 .float-name{
 display: inline-flex;
 padding: 10px;
+color: hsl(255, 12%, 80%);
 justify-content: center;
 align-items: center;
 gap: 10px;
@@ -103,28 +123,23 @@ right: -40px;
     top: 150px;
     left: -50px;
 }
-.ContactMe{
+.Explore{
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #56AAAA;
     position: absolute;
-    top: 62px;
-    right: 105px;
+    left: 16px;
+    
 }
-.box3{
-    width: 987px;
-    height: 299px;
-    background-color:lightgray;
-    padding: 8px 20px 8px 20px;
-    border: 1px;
 
-    position:absolute;
-    top: 673px;
-    left:8px;
-    right: 369px;
-    /* bottom: -102px; */
-}
 .box4{
 width: 272.544px;
 height: 216px;
-background: url(<path-to-image>) rgb(130, 40, 40) 0px -46.463px / 105.304% 121.388% no-repeat;
+background: url('krishna photos/download (5).jpg') rgb(130, 40, 40) 0px -46.463px / 105.304% 121.388% no-repeat;
 position: absolute;
 top: 41px;
 bottom: 58px;
@@ -207,8 +222,7 @@ right: 594px;
     background-color: #000;
     align-content: end;
     position: absolute;
-    left:1120px;
-    right: -20px;
+    right: 0px;
     top:0px;
 }
 .box6{
@@ -228,6 +242,14 @@ right: 594px;
 
     position: absolute;
     top: 340px;
+
+}
+.box8{
+    height: 344px;
+    width: 340px;
+    background-color: #57CB9B;
+    position: absolute;
+    bottom: 0px;
 
 }
 .box9{
@@ -269,12 +291,59 @@ bottom: 102px;
     right:180.15;
     bottom: 161px;
 
-
 }
 .box12{
-    height: 40px;
-    width: 90px;
+    width: 87px;
+    height: 64px;
+    flex-shrink: 0;
+    background-color: rgb(156, 156, 208);
+    border-radius: 16px 0 16px 16px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    position:absolute;
+    left: 11px;
+    top: 270px;
+    left: 11px;
+
+   
+    
+    
+}
+.box13{
+    width: 87px;
+    height: 64px;
+    flex-shrink: 0;
+    background-color: rgb(51, 51, 113);
+    border-radius: 16px 0 16px 16px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    position:absolute;
+    top: 201px;
+    left: 11px;
+
+   
+
+}
+.box14{
+    width: 87px;
+    height: 64px;
+    flex-shrink: 0;
+    background-color: rgb(97, 75, 15);
+    border-radius: 16px 0 16px 16px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    position:absolute;
+    top: 132px;
+    left: 11px;
+
+    
+    
+}
+.box15{
+    width: 100px;
+    height: 212px;
+    border-radius: 8.478px 0 0 0;
+    background: url(<path-to-image>) lightgray -211.751px 0px / 326.237% 97.859% no-repeat;
     background-color: blue;
     position: absolute;
-    
+    left:241px;
+    top: 132px;
+   
 }
