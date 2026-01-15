@@ -263,6 +263,94 @@ right: 46px;
     top: 340px;
 
 }
+.fe p.one{
+color: #1E2939;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.72px;
+}
+.fe p.two{
+ color: #1E2939;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.3px;
+}
+.fe p.three{
+color: #000;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.3px;
+position: absolute;
+
+left: 15px;
+top: 201px;
+}
+.fe p.dd{
+color: #2e2c2c;
+font-family: Inter;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 140px;
+position: absolute;
+
+left: 15px;
+top: 220px;
+}
+.fe p.Readmore{
+color: #000;
+font-family: Inter;
+font-size: 10.182px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.305px;
+position: absolute;
+left: 15px;
+top: 260px;
+}
+.fe p.Readmore:hover{
+    color: #1AD63D;
+}
+.fe p.three.three2{
+ 
+    position: absolute;
+    left: 190px;
+}
+.ddtwo{
+color: #2e2c2c;
+font-family: Inter;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 140px;
+position: absolute;
+
+left: 190px;
+top: 230px;
+}
+.fe p.Readmore.one{
+    position: absolute;
+    left: 190px;
+
+
+}
+
+
+
 .blog-box{
     height: 344px;
     width: 340px;
