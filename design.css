@@ -103,15 +103,16 @@ color: hsl(255, 12%, 80%);
 justify-content: center;
 align-items: center;
 gap: 10px;
-border-radius: 8px;
-background: rgba(92, 111, 187, 0.20);
+border-radius: 0px 8px;
+background: rgba(92, 111, 187, 0.50);
 
 position:absolute;
 top: 30px;
 right: -40px;
 }
 .float-role{
-    background: rgba(92, 111, 187, 0.20);
+    color: hsl(255, 12%, 80%);
+    background: rgba(92, 111, 187, 0.50);
     border-radius: 8px 0px ;
     padding: 5px;
     display: inline-flex;
@@ -239,6 +240,33 @@ right: 594px;
     position: absolute;
     top:0px;
 }
+.pod p{
+color: #1E2939;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+position: absolute;
+top: 50px;
+left: 35px;
+}
+.pod-image{
+display: flex;
+width: 306px;
+height: 146px;
+
+border-radius: 12px 0 0 12px;
+background: url('krishna photos/images.jpg') lightgray 50% / cover no-repeat;
+position: absolute;
+left: 30px;
+top:92px;
+bottom: 102px;
+
+
+}
+
 .VeiwMore{
 display: inline;
 width: 80px;
@@ -253,6 +281,7 @@ right: 46px;
 .VeiwMore:hover{
     background-color: #1AD63D;
 }
+
 .fe{
       
     width: 340px;
@@ -348,29 +377,12 @@ top: 230px;
 
 
 }
-
-
-
 .blog-box{
     height: 344px;
     width: 340px;
     background-color: #57CB9B;
     position: absolute;
     bottom: 0px;
-
-}
-.pod-image{
-display: flex;
-width: 306px;
-height: 146px;
-
-border-radius: 12px 0 0 12px;
-background: url('krishna photos/images.jpg') lightgray 50% / cover no-repeat;
-position: absolute;
-left: 30px;
-top:92px;
-bottom: 102px;
-
 
 }
 .fe-image2{
@@ -398,6 +410,10 @@ bottom: 102px;
     right:180.15;
     bottom: 161px;
 
+}
+.VeiwMore.one{
+    position: absolute;
+    top:300px;
 }
 .blog-image3{
     width: 87px;
